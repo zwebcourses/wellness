@@ -151,6 +151,11 @@ export default {
   height: unset !important;
   overflow: visible !important;
 }
+
+.carousel-3d-slide:not(.current) {
+  filter: grayscale(1) !important;
+}
+
 #best-of-energy .carousel-3d-slider {
   display: flex !important;
   justify-content: center !important;
