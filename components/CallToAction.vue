@@ -1,10 +1,10 @@
 <template>
   <section
-    class="w-full md:h-[600px] overflow-hidden md:bg-wallpaper bg-cover bg-no-repeat">
+    class="w-full lg:h-screen md:h-[600px] overflow-hidden bg-wallpaper bg-cover bg-no-repeat">
     <TheHeader v-on:hideLabel="(status) => hideLabelFun(status)" />
     <!-- Header Text -->
     <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 h-[600px] md:bg-none bg-one bg-contain flex justify-center items-end pb-24">
+      <div class="w-full md:w-1/2 lg:h-screen h-[600px] flex justify-center items-end pb-24">
         <!-- Btn -->
         <div class="md:w-2/5 w-1/2 flex justify-center items-center">
           <div class="md:w-2/3 w-full">
@@ -12,7 +12,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2 h-[600px] flex justify-center items-center bg-green object object-cover rounded-r-[30px]">
+      <div class="w-full md:w-1/2 lg:h-screen h-[600px] flex justify-center items-center bg-green object object-cover rounded-r-[30px]">
         <div class="w-5/6 text-center">
           <h1 class="text-5xl font-extrbold text-gold mb-4">
             الثروة الأولى هي الصحّة
