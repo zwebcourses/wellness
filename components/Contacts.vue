@@ -1,7 +1,7 @@
 <template>
   <section
     id="contacts"
-    class="h-[600px] bg-pattern-contacts bg-green bg-no-repeat bg-cover flex justify-center items-end py-12"
+    class="h-[600px] bg-pattern-contacts bg-blend-overlay bg-green bg-no-repeat bg-cover flex justify-center items-end py-12"
   >
     <div class="w-full text-center">
       <h2 class="text-white text-4xl font-extrabold">معلومات الاتصال</h2>
@@ -19,7 +19,7 @@
           :key="i"
           :index="i"
         >
-          <div class="mx-auto w-1/2 bg-gold rounded-full p-4">
+          <div class="mx-auto md:w-1/2 w-2/3 w-full bg-gold rounded-full md:p-4 p-2">
             <nuxt-img
               format="webp"
               :src="`img/contacts/${social}.png`"

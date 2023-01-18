@@ -1,23 +1,23 @@
 <template>
   <section
     id="best-of-energy"
-    class="block bg-green bg-pattern-products bg-cover object object-cover bg-center py-8 relative overflow-hidden"
+    class="block bg-green bg-pattern-products bg-pattern bg-blend-overlay bg-cover object object-cover bg-center py-24 relative overflow-hidden"
   >
-    <Title classes="h-20 md:h-[150px] w-full md:w-5/6" radius="rounded-full">
+    <Title classes="h-20 md:h-[150px] w-full md:w-3/5" radius="rounded-full">
       <h2
-        class="text-white md:text-6xl text-3xl text-center font-extrabold lg:scale-x-125"
+        class="text-white md:text-5xl text-2xl text-center font-extrabold lg:scale-x-125"
       >
         المنتجات الأكثر مبيعا للشركة
       </h2>
     </Title>
-    <div class="text-right">
+    <div class="text-right mt-24">
       <Title
         parentClass="text-right"
-        classes="h-16 md:h-24 w-3/4 md:w-1/3"
+        classes="h-16 md:h-24 w-3/5 md:w-1/3"
         radius="rounded-[10px]"
       >
         <h2
-          class="text-white md:text-4xl text-3xl text-center font-extrabold lg:scale-x-125"
+          class="text-white md:text-4xl text-xl text-center font-extrabold lg:scale-x-125"
         >
           منتجات الطاقة
         </h2>

@@ -1,16 +1,16 @@
 <template>
   <section
     id="best-of-loss"
-    class="block bg-green bg-center pt-8 pb-4 relative overflow-hidden"
+    class="block bg-green bg-center py-24 relative overflow-hidden"
   >
     <div class="text-right">
       <Title
         parentClass="text-right"
-        classes="h-16 md:h-24 w-3/4 md:w-1/3"
+        classes="h-16 md:h-24 w-3/5 md:w-1/3"
         radius="rounded-[10px]"
       >
         <h2
-          class="text-white md:text-4xl text-3xl text-center font-extrabold lg:scale-x-125"
+          class="text-white md:text-4xl text-xl text-center font-extrabold lg:scale-x-125"
         >
           منتجات التخسيس
         </h2>

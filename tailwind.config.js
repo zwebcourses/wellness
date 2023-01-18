@@ -27,8 +27,9 @@ module.exports = {
       },
       backgroundImage: {
         'wallpaper': "url('~@/static/img/header/wallpaper.png')",
+        'mobile': "url('~@/static/img/header/mobile.png')",
         'pattern-mission': "url('~@/static/img/mission/pattern.png')",
-        'pattern-products': "url('~@/static/img/bestOf/pattern.png')",
+        'pattern': "url('~@/static/img/bestOf/pattern.png')",
         'pattern-contacts': "url('~@/static/img/contacts/pattern.png')",
         'frame': "url('~@/static/img/bestOf/products-frame.png')",
         'bottom': "url('~@/static/img/bottom.png')",

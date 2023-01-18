@@ -1,10 +1,10 @@
 <template>
   <section
-    class="w-full lg:h-screen md:h-[600px] overflow-hidden bg-wallpaper bg-cover bg-no-repeat">
+    class="w-full lg:h-screen overflow-hidden">
     <TheHeader v-on:hideLabel="(status) => hideLabelFun(status)" />
     <!-- Header Text -->
     <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 lg:h-screen h-[600px] flex justify-center items-end pb-24">
+      <div class="w-full md:w-1/2 md:h-screen h-[470px] bg-mobile bg-contain md:bg-cover bg-no-repeat flex justify-center items-end pb-24">
         <!-- Btn -->
         <div class="md:w-2/5 w-1/2 flex justify-center items-center">
           <div class="md:w-2/3 w-full">
@@ -12,12 +12,12 @@
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2 lg:h-screen h-[600px] flex justify-center items-center bg-green rounded-r-[30px]" style="box-shadow: 7px 8px 20px 5px #000;">
-        <div class="w-5/6 text-center">
-          <h1 class="text-5xl font-extrbold text-gold mb-4">
+      <div class="w-full md:w-1/2 md:h-screen h-[470px] flex justify-center items-center bg-green rounded-r-[30px]" style="box-shadow: 7px 8px 20px 5px #000;">
+        <div class="w-full text-center p-4">
+          <h1 class="md:text-5xl text-3xl font-extrbold text-gold mb-4">
             الثروة الأولى هي الصحّة
           </h1>
-          <p class="text-3xl text-white font-extrbold">
+          <p class="md:text-3xl text-xl text-white font-extrbold">
             أعظم هدية يمكنك تقديمها لعائلتك والعالم هtو أنك بصحة جيدة
           </p>
         </div>

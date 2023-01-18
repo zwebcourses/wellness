@@ -1,16 +1,16 @@
 <template>
   <section
     id="products"
-    class="block object object-cover bg-pattern bg-cover bg-center bg-green float-none py-12"
+    class="block object object-cover bg-pattern bg-blend-overlay bg-cover bg-center bg-green float-none py-24"
   >
     <div class="text-right">
       <Title
         parentClass="text-right"
-        classes="h-16 md:h-24 w-3/4 md:w-1/3"
+        classes="h-16 md:h-24 w-3/5 md:w-1/3"
         radius="rounded-[10px]"
       >
         <h2
-          class="text-white md:text-4xl text-3xl text-center font-extrabold lg:scale-x-125"
+          class="text-white md:text-4xl text-2xl text-center font-extrabold lg:scale-x-125"
         >
           العناية بالبشرة
         </h2>

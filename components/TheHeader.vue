@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="w-full md:px-12 mx-auto md:flex md:items-center md:px-12 bg-transparent absolute"
+    class="w-full mx-auto md:flex md:items-center md:px-12 bg-transparent absolute"
   >
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between p-4">
       <router-link to="/">
         <nuxt-img
           format="webp"
@@ -17,7 +17,7 @@
       <div @click="toggleMenu" class="flex md:hidden">
         <button
           type="button"
-          class="text-black focus:outline-none focus:text-black"
+          class="text-gold focus:outline-none focus:text-gold"
         >
           <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
             <path
@@ -32,12 +32,12 @@
     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
     <ul
       :class="showMenu ? 'flex' : 'hidden'"
-      class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+      class="flex-col md:mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
     >
     <li>
         <a
           href="#home"
-          class="text-gold text-2xl inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
         >
           الرئيسية
         </a>
@@ -45,7 +45,7 @@
       <li>
         <a
           href="#about-us"
-          class="text-gold text-2xl inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
         >
           نبذه عنا
         </a>
@@ -53,7 +53,7 @@
       <li>
         <a
           href="#products"
-          class="text-gold text-2xl inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
         >
           منتجات
         </a>
@@ -61,7 +61,7 @@
       <li>
         <a
           href="#contact-us"
-          class="text-gold text-2xl inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
         >
           تواصل معنا
         </a>

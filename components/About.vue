@@ -1,11 +1,11 @@
 <template>
   <section
     id="about-us"
-    class="block object object-cover bg-green bg-pattern bg-cover bg-center pt-8 pb-4 relative overflow-hidden"
+    class="block bg-pattern bg-green bg-blend-overlay bg-cover bg-center py-24 relative overflow-hidden"
   >
-    <Title classes="h-16 md:h-[150px] w-3/4 md:w-3/4" radius="rounded-full">
+    <Title classes="h-20 md:h-[150px] w-5/6 md:w-3/5" radius="rounded-full">
       <h2
-        class="text-white md:text-6xl text-3xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-700 lg:scale-x-125"
+        class="text-white md:text-5xl text-2xl text-center font-extrabold lg:scale-x-125"
       >
         نبذة عن التيميت ويلنس
       </h2>
@@ -107,7 +107,7 @@ export default {
 }
 @media (min-width: 320px) {
   #about-us .carousel-3d-container {
-    height: 450px !important;
+    /* height: 450px !important; */
     overflow: visible !important;
   }
   #about-us .carousel-3d-slide img {
