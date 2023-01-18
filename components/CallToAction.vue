@@ -4,7 +4,7 @@
     <TheHeader v-on:hideLabel="(status) => hideLabelFun(status)" />
     <!-- Header Text -->
     <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 md:h-screen h-[470px] bg-mobile bg-contain md:bg-cover bg-no-repeat flex justify-center items-end pb-24">
+      <div class="w-full md:w-1/2 md:h-screen h-[470px] bg-mobile bg-cover bg-no-repeat flex justify-center items-end pb-24">
         <!-- Btn -->
         <div class="md:w-2/5 w-1/2 flex justify-center items-center">
           <div class="md:w-2/3 w-full">
