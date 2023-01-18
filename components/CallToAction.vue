@@ -12,7 +12,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2 lg:h-screen h-[600px] flex justify-center items-center bg-green object object-cover rounded-r-[30px]">
+      <div class="w-full md:w-1/2 lg:h-screen h-[600px] flex justify-center items-center bg-green rounded-r-[30px]" style="box-shadow: 7px 8px 20px 5px #000;">
         <div class="w-5/6 text-center">
           <h1 class="text-5xl font-extrbold text-gold mb-4">
             الثروة الأولى هي الصحّة

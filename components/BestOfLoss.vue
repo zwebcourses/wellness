@@ -7,10 +7,10 @@
       <Title
         parentClass="text-right"
         classes="h-16 md:h-24 w-3/4 md:w-1/3"
-        radius="rounded-none"
+        radius="rounded-[10px]"
       >
         <h2
-          class="text-white md:text-4xl text-3xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-700 lg:scale-x-125"
+          class="text-white md:text-4xl text-3xl text-center font-extrabold lg:scale-x-125"
         >
           منتجات التخسيس
         </h2>
@@ -34,7 +34,7 @@
             :key="i"
             :index="i"
           >
-            <div class="relative h-[550px] bg-frame bg-cover">
+            <div class="relative h-[550px] bg-frame bg-cover rounded-tl-[50px] rounded-br-[50px]">
               <div class="mx-auto w-full relative top-[-105px]">
                 <nuxt-img
                   format="webp"

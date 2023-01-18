@@ -7,10 +7,10 @@
       <Title
         parentClass="text-right"
         classes="h-16 md:h-24 w-3/4 md:w-1/3"
-        radius="rounded-none"
+        radius="rounded-[10px]"
       >
         <h2
-          class="text-white md:text-4xl text-3xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-700 lg:scale-x-125"
+          class="text-white md:text-4xl text-3xl text-center font-extrabold lg:scale-x-125"
         >
           العناية بالبشرة
         </h2>
@@ -18,12 +18,12 @@
     </div>
     <div class="w-full flex md:flex-row flex-col justify-between items-center px-12">
       <div
-        class="md:w-2/5 w-full bg-frame bg-cover mb-12 md:mb-0"
+        class="md:w-2/5 w-full mb-12 md:mb-0"
         v-for="(product, i) in products"
         :key="i"
         :index="i"
       >
-        <div class="relative bg-frame bg-cover">
+        <div class="relative bg-frame bg-cover rounded-tl-[50px] rounded-br-[50px]">
           <div class="mx-auto w-full relative">
             <nuxt-img
               format="webp"

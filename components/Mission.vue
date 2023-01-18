@@ -1,5 +1,5 @@
 <template>
-  <section id="mission" class="block object object-cover bg-pattern bg-cover bg-center bg-green float-none py-12">
+  <section id="mission" class="block object object-cover bg-pattern-mission bg-cover bg-center bg-green float-none py-12">
     <h2 class="text-gold md:text-6xl text-3xl text-center font-extrabold mb-10">مهمتنا</h2>
     <div class="w-3/4 mx-auto text-center">
       <p class="text-white text-3xl mb-10">

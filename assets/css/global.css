@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Tajawal-Medium";
+  font-family: "Tajawal-Bold" ;
   src: local("Tajawal"),
-  url(~assets/fonts/Tajawal/Tajawal-Medium.ttf) format("truetype");
+  url(~assets/fonts/Tajawal/Tajawal-Bold.ttf) format("truetype");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 }
 
 html, body {
-  font-family: "Tajawal-Medium";
+  font-family: "Tajawal-Bold";
 }
 
 .product-name {

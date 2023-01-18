@@ -23,12 +23,11 @@
           :clickable="true"
         >
           <slide
-            class="rounded-full"
             v-for="(about, i) in abouts"
             :key="i"
             :index="i"
           >
-            <div class="bg-white relative">
+            <div class="bg-white relative h-[345px] rounded-[50px]">
               <div
                 class="mx-auto bg-gold rounded-full w-[80px] relative top-[-50px]"
               >
@@ -141,9 +140,9 @@ export default {
   width: 50px !important;
 }
 #about-us .carousel-3d-slide {
-  width: 280px !important;
-  box-shadow: black 0px 0px 16px 14px !important;
-  border-radius: 0.75rem !important;
+  width: 345px !important;
+  /* box-shadow: black 0px 0px 16px 14px !important; */
+  border-radius: 50px !important;
   background-color: #fff !important;
 }
 #about-us .carousel-3d-slider {

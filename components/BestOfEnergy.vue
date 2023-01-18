@@ -1,19 +1,23 @@
 <template>
   <section
     id="best-of-energy"
-    class="block bg-green bg-pattern bg-cover object object-cover bg-center py-8 relative overflow-hidden"
+    class="block bg-green bg-pattern-products bg-cover object object-cover bg-center py-8 relative overflow-hidden"
   >
     <Title classes="h-20 md:h-[150px] w-full md:w-5/6" radius="rounded-full">
-      المنتجات الأكثر مبيعا للشركة
+      <h2
+        class="text-white md:text-6xl text-3xl text-center font-extrabold lg:scale-x-125"
+      >
+        المنتجات الأكثر مبيعا للشركة
+      </h2>
     </Title>
     <div class="text-right">
       <Title
         parentClass="text-right"
         classes="h-16 md:h-24 w-3/4 md:w-1/3"
-        radius="rounded-none"
+        radius="rounded-[10px]"
       >
         <h2
-          class="text-white md:text-4xl text-3xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-700 lg:scale-x-125"
+          class="text-white md:text-4xl text-3xl text-center font-extrabold lg:scale-x-125"
         >
           منتجات الطاقة
         </h2>
@@ -37,7 +41,9 @@
             :key="i"
             :index="i"
           >
-            <div class="relative h-[550px] bg-frame bg-cover">
+            <div
+              class="relative h-[550px] bg-frame bg-cover rounded-tl-[50px] rounded-br-[50px]"
+            >
               <div class="mx-auto w-full relative top-[-105px]">
                 <nuxt-img
                   format="webp"
@@ -155,7 +161,9 @@ export default {
 .carousel-3d-slide:not(.current) {
   filter: grayscale(1) !important;
 }
-
+.carousel-3d-slide {
+  border-radius: 50px 0px !important;
+}
 #best-of-energy .carousel-3d-slider {
   display: flex !important;
   justify-content: center !important;
