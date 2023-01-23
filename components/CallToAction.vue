@@ -1,25 +1,21 @@
 <template>
   <section
-    class="w-full lg:h-screen overflow-hidden">
+    class="w-full bg-header bg-cover bg-center bg-no-repeat overflow-hidden"
+  >
     <TheHeader v-on:hideLabel="(status) => hideLabelFun(status)" />
-    <!-- Header Text -->
-    <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 md:h-screen h-[470px] bg-mobile bg-cover bg-no-repeat flex justify-center items-end pb-24">
-        <!-- Btn -->
-        <div class="md:w-2/5 w-1/2 flex justify-center items-center">
-          <div class="md:w-2/3 w-full">
-            <CTAButton textColor="text-white" />
-          </div>
-        </div>
-      </div>
-      <div class="w-full md:w-1/2 md:h-screen h-[470px] flex justify-center items-center bg-green rounded-r-[30px]" style="box-shadow: 7px 8px 20px 5px #000;">
+    <div class="flex justify-center items-end md:h-screen h-[400px]">
+      <!-- Header Text -->
+      <div class="lg:w-2/5 md:3/5 w-11/12 flex flex-col justify-center items-center">
         <div class="w-full text-center p-4">
-          <h1 class="md:text-5xl text-3xl font-extrbold text-gold mb-4">
+          <h1 class="md:text-5xl text-xl font-extrbold text-gold mb-4">
             الثروة الأولى هي الصحّة
           </h1>
           <p class="md:text-3xl text-xl text-white font-extrbold">
             أعظم هدية يمكنك تقديمها لعائلتك والعالم هtو أنك بصحة جيدة
           </p>
+        </div>
+        <div class="md:w-2/3 w-1/3 md:mb-8">
+          <CTAButton textColor="text-white" />
         </div>
       </div>
     </div>

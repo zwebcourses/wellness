@@ -17,7 +17,7 @@
         </div>
       </div>
       <div
-        class="md:w-1/2 w-full bg-side bg-cover bg-no-repeat flex justify-center items-end"
+        class="md:w-2/3 w-full flex justify-center items-end"
       >
         <div class="mx-auto w-full">
           <nuxt-img
@@ -26,7 +26,7 @@
             alt="hands"
             style="pointer-events: none"
             onContextMenu="return false;"
-            class="relative md:left-[100px] left-[11px]"
+            class="relative left-[11px]"
           />
         </div>
       </div>

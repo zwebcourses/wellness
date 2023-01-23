@@ -1,7 +1,7 @@
 <template>
-  <div class="rounded-full bg-bottom bg-cover h-16" style="box-shadow: 4px 4px 8px 0px #393030">
-    <div class="h-full flex justify-center items-center" :class="textColor">
-      <a href="#form" class="text-3xl font-extrabold">أعرف المزيد</a>
+  <div class="h-24 bg-bottun bg-contain bg-center bg-no-repeat">
+    <div class="h-full w-full flex justify-center items-center" :class="textColor">
+      <a href="#form" class="md:text-3xl text-lg font-extrabold">أعرف المزيد</a>
     </div>
   </div>
 </template>

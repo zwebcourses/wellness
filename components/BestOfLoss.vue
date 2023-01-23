@@ -34,27 +34,32 @@
             :key="i"
             :index="i"
           >
-            <div class="relative h-[550px] bg-frame bg-cover rounded-tl-[50px] rounded-br-[50px]">
-              <div class="mx-auto w-full relative top-[-105px]">
+          <div
+              class="relative bg-frame bg-contain bg-center bg-no-repeat rounded-tl-[50px] rounded-br-[50px]"
+            >
+              <div class="mx-auto w-full">
                 <nuxt-img
                   format="webp"
-                  :src="`img/bestOf/weight/${loss.name}`"
+                  :src="`img/bestOf/loss/${loss.name}`"
                   :alt="loss.alt"
                   style="pointer-events: none"
                   onContextMenu="return false;"
+                  class="relative top-[-35px]"
                 />
-                <div class="p-2 text-center">
-                  <h2 class="text-6xl font-extrabold text-black">
-                    {{ loss.title }}
-                  </h2>
-                </div>
-                <div class="px-4 text-center">
-                  <p class="font-bold text-2xl text-gray-800">
-                    {{ loss.text }}
-                  </p>
+                <div class="h-40 relative top-[-15px]">
+                  <div class="p-2 text-center">
+                    <h2 class="md:text-5xl text-3xl font-extrabold text-black">
+                      {{ loss.title }}
+                    </h2>
+                  </div>
+                  <div class="px-4 text-center">
+                    <p class="font-bold md:text-xl text-lg text-gray-800">
+                      {{ loss.text }}
+                    </p>
+                  </div>
                 </div>
                 <!-- Btn -->
-                <div class="w-2/3 mx-auto relative bottom-[-140px]">
+                <div class="w-2/3 mx-auto relative md:bottom-[15px] bottom-[25px]">
                   <CTAButton />
                 </div>
               </div>
@@ -71,7 +76,7 @@ export default {
   components: {
     Title: () =>
       import(/* webpackChunkName: 'Title' */ "~/components/Title.vue"),
-      CTAButton: () =>
+    CTAButton: () =>
       import(/* webpackChunkName: 'CTAButton' */ "~/components/CTAButton.vue"),
   },
   data: () => ({
@@ -84,12 +89,12 @@ export default {
       {
         name: "raspberry.png",
         title: "raspberry",
-        text: "raspberry",
+        text: "لخسارة ١٥ كيلو خلال شهر",
       },
       {
         name: "ultimate keto.png",
         title: "ultimate keto",
-        text: "ultimate keto",
+        text: "للحصول علي الوزن المثالي بشكل آمن",
       },
     ],
   }),
@@ -99,17 +104,9 @@ export default {
 <style>
 #best-of-loss .carousel-3d-container {
   height: 550px !important;
+  overflow: visible !important;
 }
-@media (min-width: 320px) {
-  #best-of-loss .carousel-3d-container {
-    height: 550px !important;
-    overflow: visible !important;
-  }
-  #best-of-loss .carousel-3d-slide img {
-    width: 100% !important;
-    height: 100% !important;
-  }
-}
+
 #best-of-loss .carousel-3d-slide img {
   width: 100% !important;
   height: 100% !important;
@@ -132,14 +129,23 @@ export default {
 }
 #best-of-loss .carousel-3d-slide {
   width: 100% !important; /*400px*/
-  /* box-shadow: black 0px 0px 16px 14px !important;
-  border-radius: 0.75rem !important;
-  background-color: #fff !important; */
   height: unset !important;
   overflow: visible !important;
 }
 #best-of-loss .carousel-3d-slider {
   display: flex !important;
   justify-content: center !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #best-of-loss .carousel-3d-container {
+    height: 500px !important;
+  }
+  #best-of-loss .carousel-3d-slide {
+    width: 300px !important;
+  }
+  #best-of-loss .carousel-3d-slide img {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 </style>

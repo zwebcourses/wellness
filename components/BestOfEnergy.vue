@@ -42,28 +42,31 @@
             :index="i"
           >
             <div
-              class="relative h-[550px] bg-frame bg-cover rounded-tl-[50px] rounded-br-[50px]"
+              class="relative bg-frame bg-contain bg-center bg-no-repeat rounded-tl-[50px] rounded-br-[50px]"
             >
-              <div class="mx-auto w-full relative top-[-105px]">
+              <div class="mx-auto w-full">
                 <nuxt-img
                   format="webp"
                   :src="`img/bestOf/energy/${energy.name}`"
                   :alt="energy.alt"
                   style="pointer-events: none"
                   onContextMenu="return false;"
+                  class="relative top-[-35px]"
                 />
-                <div class="p-2 text-center">
-                  <h2 class="text-6xl font-extrabold text-black">
-                    {{ energy.title }}
-                  </h2>
-                </div>
-                <div class="px-4 text-center">
-                  <p class="font-bold text-2xl text-gray-800">
-                    {{ energy.text }}
-                  </p>
+                <div class="h-40 relative top-[-15px]">
+                  <div class="p-2 text-center">
+                    <h2 class="md:text-5xl text-3xl font-extrabold text-black">
+                      {{ energy.title }}
+                    </h2>
+                  </div>
+                  <div class="px-4 text-center">
+                    <p class="font-bold md:text-xl text-lg text-gray-800">
+                      {{ energy.text }}
+                    </p>
+                  </div>
                 </div>
                 <!-- Btn -->
-                <div class="w-2/3 mx-auto relative bottom-[-140px]">
+                <div class="w-2/3 mx-auto relative md:bottom-[15px] bottom-[25px]">
                   <CTAButton />
                 </div>
               </div>
@@ -88,12 +91,12 @@ export default {
       {
         name: "bull power.png",
         title: "bull power",
-        text: "bull power",
+        text: "للحصول علي حجم اكبر !!",
       },
       {
         name: "golden chew.png",
         title: "golden chew",
-        text: "golden chew",
+        text: "أقوي محفز للرجال",
       },
       {
         name: "golden spray.png",
@@ -103,12 +106,12 @@ export default {
       {
         name: "long night.png",
         title: "long night",
-        text: "long night",
+        text: "للحصول علي علاقة عاطفية اطول",
       },
       {
         name: "volt drops.png",
         title: "volt drops",
-        text: "volt drops",
+        text: "يعطيك الطاقة و الانتعاش اللازمتين قبل أي نشاط بدني",
       },
     ],
   }),
@@ -118,17 +121,9 @@ export default {
 <style>
 #best-of-energy .carousel-3d-container {
   height: 550px !important;
+  overflow: visible !important;
 }
-@media (min-width: 320px) {
-  #best-of-energy .carousel-3d-container {
-    height: 550px !important;
-    overflow: visible !important;
-  }
-  #best-of-energy .carousel-3d-slide img {
-    width: 100% !important;
-    height: 100% !important;
-  }
-}
+
 #best-of-energy .carousel-3d-slide img {
   width: 100% !important;
   height: 100% !important;
@@ -163,9 +158,23 @@ export default {
 }
 .carousel-3d-slide {
   border-radius: 50px 0px !important;
+  background-color: unset !important;
 }
 #best-of-energy .carousel-3d-slider {
   display: flex !important;
   justify-content: center !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #best-of-energy .carousel-3d-container {
+    height: 500px !important;
+  }
+  #best-of-energy .carousel-3d-slide {
+    width: 300px !important;
+  }
+  #best-of-energy .carousel-3d-slide img {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 </style>

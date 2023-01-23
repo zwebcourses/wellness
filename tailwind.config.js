@@ -26,14 +26,12 @@ module.exports = {
         'darkGold': '#b68d40'
       },
       backgroundImage: {
-        'wallpaper': "url('~@/static/img/header/wallpaper.png')",
-        'mobile': "url('~@/static/img/header/mobile.png')",
+        'header': "url('~@/static/img/header/header.jpg')",
         'pattern-mission': "url('~@/static/img/mission/pattern.png')",
         'pattern': "url('~@/static/img/bestOf/pattern.png')",
         'pattern-contacts': "url('~@/static/img/contacts/pattern.png')",
         'frame': "url('~@/static/img/bestOf/products-frame.png')",
-        'bottom': "url('~@/static/img/bottom.png')",
-        'side': "url('~@/static/img/footer/side.png')",
+        'bottun': "url('~@/static/img/bottom.png')",
         'hands': "url('~@/static/img/footer/hands.png')",
       },
     }

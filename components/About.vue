@@ -104,16 +104,7 @@ export default {
 <style>
 #about-us .carousel-3d-container {
   height: 345px !important;
-}
-@media (min-width: 320px) {
-  #about-us .carousel-3d-container {
-    /* height: 450px !important; */
-    overflow: visible !important;
-  }
-  #about-us .carousel-3d-slide img {
-    width: 80px !important;
-    height: 80px !important;
-  }
+  overflow: visible !important;
 }
 #about-us .carousel-3d-slide {
   height: unset !important;
@@ -148,5 +139,18 @@ export default {
 #about-us .carousel-3d-slider {
   display: flex !important;
   justify-content: center !important;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  #about-us .carousel-3d-container {
+    height: 310px !important;
+  }
+  #about-us .carousel-3d-slide {
+    width: 300px !important;
+  }
+  #about-us .carousel-3d-slide img {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 </style>

@@ -37,7 +37,7 @@
     <li>
         <a
           href="#home"
-          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           الرئيسية
         </a>
@@ -45,7 +45,7 @@
       <li>
         <a
           href="#about-us"
-          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           نبذه عنا
         </a>
@@ -53,7 +53,7 @@
       <li>
         <a
           href="#products"
-          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           منتجات
         </a>
@@ -61,7 +61,7 @@
       <li>
         <a
           href="#contact-us"
-          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           تواصل معنا
         </a>
