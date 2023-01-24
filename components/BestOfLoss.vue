@@ -111,22 +111,6 @@ export default {
   width: 100% !important;
   height: 100% !important;
 }
-#best-of-loss .Next slide span {
-  font-size: 180px;
-  color: #fff;
-}
-#best-of-loss .carousel-3d-container .next span {
-  font-size: 180px;
-  color: #fff;
-}
-#best-of-loss .carousel-3d-container .prev span {
-  font-size: 180px;
-  color: #fff;
-}
-
-#best-of-loss .carousel-3d-container a.prev {
-  width: 50px !important;
-}
 #best-of-loss .carousel-3d-slide {
   width: 100% !important; /*400px*/
   height: unset !important;

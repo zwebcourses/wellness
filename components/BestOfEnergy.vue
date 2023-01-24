@@ -66,7 +66,9 @@
                   </div>
                 </div>
                 <!-- Btn -->
-                <div class="w-2/3 mx-auto relative md:bottom-[15px] bottom-[25px]">
+                <div
+                  class="w-2/3 mx-auto relative md:bottom-[15px] bottom-[25px]"
+                >
                   <CTAButton />
                 </div>
               </div>
@@ -119,6 +121,7 @@ export default {
 </script>
 
 <style>
+
 #best-of-energy .carousel-3d-container {
   height: 550px !important;
   overflow: visible !important;
@@ -128,37 +131,10 @@ export default {
   width: 100% !important;
   height: 100% !important;
 }
-#best-of-energy .Next slide span {
-  font-size: 180px;
-  color: #fff;
-}
-#best-of-energy .carousel-3d-container .next span {
-  font-size: 180px;
-  color: #fff;
-}
-#best-of-energy .carousel-3d-container .prev span {
-  font-size: 180px;
-  color: #fff;
-}
-
-#best-of-energy .carousel-3d-container a.prev {
-  width: 50px !important;
-}
 #best-of-energy .carousel-3d-slide {
-  width: 100% !important; /*400px*/
-  /* box-shadow: black 0px 0px 16px 14px !important;
-  border-radius: 0.75rem !important;
-  background-color: #fff !important; */
+  width: 100% !important;
   height: unset !important;
   overflow: visible !important;
-}
-
-.carousel-3d-slide:not(.current) {
-  filter: grayscale(1) !important;
-}
-.carousel-3d-slide {
-  border-radius: 50px 0px !important;
-  background-color: unset !important;
 }
 #best-of-energy .carousel-3d-slider {
   display: flex !important;

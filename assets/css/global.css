@@ -1,19 +1,49 @@
 @font-face {
-  font-family: "Tajawal-Bold" ;
+  font-family: "Tajawal-Bold";
   src: local("Tajawal"),
-  url(~assets/fonts/Tajawal/Tajawal-Bold.ttf) format("truetype");
+    url(~assets/fonts/Tajawal/Tajawal-Bold.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "Lemon-Medium";
-  src: local("Lemon"),
-  url(~assets/fonts/Lemon/Lemon-Medium.otf) format("truetype");
-}
-
-html, body {
+html,
+body {
   font-family: "Tajawal-Bold";
 }
 
-.product-name {
-  font-family: "Lemon-Bold";
+.Next slide span {
+  font-size: 180px;
+  color: #d6ad60;
+}
+.carousel-3d-container .next span {
+  font-size: 180px;
+  color: #d6ad60;
+}
+.carousel-3d-container .prev span {
+  font-size: 180px;
+  color: #d6ad60;
+}
+.carousel-3d-container a.prev {
+  width: 50px !important;
+}
+.carousel-3d-slide:not(.current) {
+  filter: grayscale(1) !important;
+}
+.carousel-3d-slide {
+  border-radius: 50px 0px !important;
+  background-color: unset !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .Next slide span {
+    font-size: 80px;
+  }
+
+  .carousel-3d-container .next span {
+    font-size: 80px;
+  }
+  .carousel-3d-container .prev span {
+    font-size: 80px;
+  }
+  .carousel-3d-container a.prev {
+    width: 50px !important;
+  }
 }

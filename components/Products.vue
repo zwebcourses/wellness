@@ -110,37 +110,12 @@ export default {
   width: 100% !important;
   height: 100% !important;
 }
-#best-of-products .Next slide span {
-  font-size: 180px;
-  color: #fff;
-}
-#best-of-products .carousel-3d-container .next span {
-  font-size: 180px;
-  color: #fff;
-}
-#best-of-products .carousel-3d-container .prev span {
-  font-size: 180px;
-  color: #fff;
-}
-
-#best-of-products .carousel-3d-container a.prev {
-  width: 50px !important;
-}
 #best-of-products .carousel-3d-slide {
-  width: 100% !important; /*400px*/
-  /* box-shadow: black 0px 0px 16px 14px !important;
-  border-radius: 0.75rem !important;
-  background-color: #fff !important; */
+  width: 100% !important;
   height: unset !important;
   overflow: visible !important;
 }
 
-.carousel-3d-slide:not(.current) {
-  filter: grayscale(1) !important;
-}
-.carousel-3d-slide {
-  border-radius: 50px 0px !important;
-}
 #best-of-products .carousel-3d-slider {
   display: flex !important;
   justify-content: center !important;

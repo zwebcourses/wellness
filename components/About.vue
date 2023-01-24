@@ -114,25 +114,9 @@ export default {
   width: 80px !important;
   height: 80px !important;
 }
-#about-us .Next slide span {
-  font-size: 180px;
-  color: #fff;
-}
-#about-us .carousel-3d-container .next span {
-  font-size: 180px;
-  color: #fff;
-}
-#about-us .carousel-3d-container .prev span {
-  font-size: 180px;
-  color: #fff;
-}
 
-#about-us .carousel-3d-container a.prev {
-  width: 50px !important;
-}
 #about-us .carousel-3d-slide {
   width: 345px !important;
-  /* box-shadow: black 0px 0px 16px 14px !important; */
   border-radius: 50px !important;
   background-color: #fff !important;
 }
