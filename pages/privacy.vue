@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheHeader />
-    <div class="flex bg-green pt-24 p-8">
+    <div class="flex bg-black pt-24 p-8">
       <div class="p-4 rounded shadow-lg">
         <div class="items-center space-y-2">
           <h1 class="text-4xl font-bold text-darkGold">صفحة سياسة الخصوصية</h1>
