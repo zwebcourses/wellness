@@ -82,6 +82,11 @@ export default {
   data: () => ({
     losses: [
       {
+        name: "ultimate keto-min.png",
+        title: "Ultimate keto",
+        text: "للحصول علي الوزن المثالي بشكل آمن",
+      },
+      {
         name: "garcinia-min.png",
         title: "Garcinia Cambogia",
         text: "مستخلص مادة الجارسينيا لنقص الوزن بشكل طبيعي",
@@ -90,11 +95,6 @@ export default {
         name: "raspberry-min.png",
         title: "Raspberry Ketone",
         text: "لخسارة ١٥ كيلو خلال شهر",
-      },
-      {
-        name: "ultimate keto-min.png",
-        title: "Ultimate keto",
-        text: "للحصول علي الوزن المثالي بشكل آمن",
       },
     ],
   }),

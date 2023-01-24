@@ -19,7 +19,7 @@
     <div class="mx-auto mt-24">
       <no-ssr placeholder="Loading...">
         <carousel-3d
-          :autoplay="false"
+          :autoplay="true"
           :autoplay-timeout="3000"
           :controls-visible="true"
           :controls-prev-html="'&#x203A; '"
