@@ -48,7 +48,7 @@
           <nuxt-img
             format="webp"
             class="w-3/4 m-2 p-4"
-            :src="`img/header/header.jpg`"
+            :src="`img/header/header-min.jpg`"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
