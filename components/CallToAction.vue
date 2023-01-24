@@ -1,12 +1,12 @@
 <template>
   <section
-    class="w-full bg-header bg-cover bg-center bg-no-repeat overflow-hidden"
+    class="w-full overflow-hidden"
   >
     <TheHeader v-on:hideLabel="(status) => hideLabelFun(status)" />
-    <div class="flex justify-center items-end md:h-screen h-[400px]">
+    <div class="flex justify-center items-end md:h-screen h-[500px] bg-header bg-cover bg-center bg-no-repeat">
       <!-- Header Text -->
       <div class="lg:w-2/5 md:3/5 w-11/12 flex flex-col justify-center items-center">
-        <div class="w-full text-center p-4">
+        <div class="w-full text-center md:p-4">
           <h1 class="md:text-5xl text-xl font-extrbold text-gold mb-4">
             الثروة الأولى هي الصحّة
           </h1>

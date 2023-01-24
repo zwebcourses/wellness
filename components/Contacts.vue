@@ -1,7 +1,7 @@
 <template>
   <section
     id="contacts"
-    class="h-[600px] bg-pattern-contacts bg-blend-overlay bg-green bg-no-repeat bg-cover flex justify-center items-end py-12"
+    class="h-[400px] bg-pattern-contacts bg-blend-overlay bg-green bg-no-repeat bg-cover flex justify-center items-end py-12"
   >
     <div class="w-full text-center">
       <h2 class="text-white text-4xl font-extrabold">معلومات الاتصال</h2>

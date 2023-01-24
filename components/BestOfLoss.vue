@@ -1,7 +1,7 @@
 <template>
   <section
     id="best-of-loss"
-    class="block bg-green bg-center py-24 relative overflow-hidden"
+    class="block bg-green bg-center md:py-24 py-12 relative overflow-hidden"
   >
     <div class="text-right">
       <Title
@@ -83,17 +83,17 @@ export default {
     losses: [
       {
         name: "garcinia.png",
-        title: "garcinia",
-        text: "garcinia",
+        title: "Garcinia Cambogia",
+        text: "مستخلص مادة الجارسينيا لنقص الوزن بشكل طبيعي",
       },
       {
         name: "raspberry.png",
-        title: "raspberry",
+        title: "Raspberry Ketone",
         text: "لخسارة ١٥ كيلو خلال شهر",
       },
       {
         name: "ultimate keto.png",
-        title: "ultimate keto",
+        title: "Ultimate keto",
         text: "للحصول علي الوزن المثالي بشكل آمن",
       },
     ],

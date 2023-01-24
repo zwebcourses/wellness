@@ -1,7 +1,7 @@
 <template>
   <section
     id="best-of-energy"
-    class="block bg-green bg-pattern-products bg-pattern bg-blend-overlay bg-cover object object-cover bg-center py-24 relative overflow-hidden"
+    class="block bg-green bg-pattern-products bg-pattern bg-blend-overlay bg-cover bg-center md:py-24 py-12 relative overflow-hidden"
   >
     <Title classes="h-20 md:h-[150px] w-full md:w-3/5" radius="rounded-full">
       <h2
@@ -90,27 +90,27 @@ export default {
     energies: [
       {
         name: "bull power.png",
-        title: "bull power",
+        title: "Bull Power",
         text: "للحصول علي حجم اكبر !!",
       },
       {
         name: "golden chew.png",
-        title: "golden chew",
+        title: "Golden Chew",
         text: "أقوي محفز للرجال",
       },
       {
         name: "golden spray.png",
-        title: "golden spray",
-        text: "golden spray",
+        title: "Golden spray",
+        text: "سبراي الرجال للانتصاب القوي",
       },
       {
         name: "long night.png",
-        title: "long night",
-        text: "للحصول علي علاقة عاطفية اطول",
+        title: "Long Night",
+        text: "سبراي للرجال للحصول علي علاقة عاطفية اطول",
       },
       {
         name: "volt drops.png",
-        title: "volt drops",
+        title: "Volt Drops",
         text: "يعطيك الطاقة و الانتعاش اللازمتين قبل أي نشاط بدني",
       },
     ],
