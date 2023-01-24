@@ -89,27 +89,27 @@ export default {
   data: () => ({
     energies: [
       {
-        name: "bull power.png",
+        name: "bull power-min.png",
         title: "Bull Power",
         text: "للحصول علي حجم اكبر !!",
       },
       {
-        name: "golden chew.png",
+        name: "golden chew-min.png",
         title: "Golden Chew",
         text: "أقوي محفز للرجال",
       },
       {
-        name: "golden spray.png",
+        name: "golden spray-min.png",
         title: "Golden spray",
         text: "سبراي الرجال للانتصاب القوي",
       },
       {
-        name: "long night.png",
+        name: "long night-min.png",
         title: "Long Night",
         text: "سبراي للرجال للحصول علي علاقة عاطفية اطول",
       },
       {
-        name: "volt drops.png",
+        name: "volt drops-min.png",
         title: "Volt Drops",
         text: "يعطيك الطاقة و الانتعاش اللازمتين قبل أي نشاط بدني",
       },

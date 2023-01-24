@@ -81,17 +81,17 @@ export default {
   data: () => ({
     products: [
       {
-        name: "golden.png",
+        name: "golden-min.png",
         title: "Golden Collagen",
         text: "لازالة التجاعيد واستعادة شبابك خلال دقيقتين",
       },
       {
-        name: "instant whitening.png",
+        name: "instant whitening-min.png",
         title: "Whitening",
         text: "كريم تبييض فوري للبشرة",
       },
       {
-        name: "instant whitening.png",
+        name: "instant whitening-min.png",
         title: "instant whitening",
         text: "تبييض فوري للبشرة",
       },

@@ -36,7 +36,7 @@
     >
     <li>
         <a
-          href="#home"
+          href="/"
           class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           الرئيسية
@@ -44,7 +44,7 @@
       </li>
       <li>
         <a
-          href="#about-us"
+          href="/#about-us"
           class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           نبذه عنا
@@ -52,7 +52,7 @@
       </li>
       <li>
         <a
-          href="#products"
+          href="/#best-of-energy"
           class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           منتجات
@@ -60,7 +60,7 @@
       </li>
       <li>
         <a
-          href="#contact-us"
+          href="/#contacts"
           class="text-gold md:text-2xl text-lg inline-block clickable mt-0 hover:text-gold p-2 rounded hover:bg-green mr-2"
         >
           تواصل معنا
